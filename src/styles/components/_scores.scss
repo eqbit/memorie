@@ -1,0 +1,47 @@
+.scores {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &-item {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    align-items: baseline;
+
+    & + & {
+      margin-top: 10px;
+    }
+
+    &__name {
+      order: 0;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      color: #333333;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      flex: 1;
+      order: 1;
+      border-bottom: 1px dashed #333;
+      margin: 0 10px;
+    }
+
+    &__time {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+      order: 2;
+    }
+  }
+
+  &__btn {
+    margin-top: 40px;
+  }
+}

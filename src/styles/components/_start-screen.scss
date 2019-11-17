@@ -1,0 +1,17 @@
+.start-screen {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    height: 100%;
+  }
+
+  &__btn {
+    & + & {
+      margin-top: 20px;
+    }
+  }
+}

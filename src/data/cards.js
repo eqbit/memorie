@@ -1,0 +1,20 @@
+export default [
+  '/images/bat.svg',
+  '/images/bird.svg',
+  '/images/camel.svg',
+  '/images/cat.svg',
+  '/images/clown-fish.svg',
+  '/images/crocodile.svg',
+  '/images/crow.svg',
+  '/images/deer.svg',
+  '/images/dog.svg',
+  '/images/duckling.svg',
+  '/images/mammoth.svg',
+  '/images/ostrich.svg',
+  '/images/rabbit.svg',
+  '/images/raccoon.svg',
+  '/images/smilodon.svg',
+  '/images/spider.svg',
+  '/images/squirrel.svg',
+  '/images/tyrannosaurus-rex.svg'
+];
